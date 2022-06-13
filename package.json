@@ -1,0 +1,32 @@
+{
+  "name": "vue-fiction",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue src",
+    "commit": "commit",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "axios": "^0.27.2",
+    "eslint": "^8.0.1",
+    "vue": "^3.2.25",
+    "vue-router": "4",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.0.2",
+    "@commitlint/prompt-cli": "^17.0.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "husky": "^8.0.0",
+    "vite": "^2.9.9"
+  }
+}
