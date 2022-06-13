@@ -1,4 +1,4 @@
-name: Publish And Deploy Demo
+name: deploy
 on:
   push:
     # tags:
@@ -54,7 +54,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd /usr/share/nginx/Vue-Fiction
+          cd /usr/share/nginx/Vue3-Fiction
           git pull
           yarn
           yarn run build
