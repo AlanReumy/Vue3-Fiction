@@ -32,7 +32,7 @@
 - 安装：
 
   ```shell
-  yarn install
+  yarn
   ```
 
 - 运行：
