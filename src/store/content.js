@@ -1,4 +1,4 @@
-import { getContentApi } from '../apis/content'
+import { getContentApi } from '../apis'
 
 const contentStore = {
   state: () => ({

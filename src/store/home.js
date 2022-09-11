@@ -1,4 +1,4 @@
-import { getSearchDataApi } from '../apis/search'
+import { getSearchDataApi } from '../apis'
 
 const homeStore = {
   state: () => ({

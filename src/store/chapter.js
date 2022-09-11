@@ -1,4 +1,4 @@
-import { getChapterApi } from '../apis/chapter'
+import { getChapterApi } from '../apis'
 
 const chapterStore = {
   state: () => ({
